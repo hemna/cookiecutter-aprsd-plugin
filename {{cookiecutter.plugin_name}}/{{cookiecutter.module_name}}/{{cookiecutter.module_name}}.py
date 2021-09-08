@@ -34,7 +34,7 @@ class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_obj
             # Just return it for example:
             # https://github.com/hemna/aprsd-weewx-plugin/blob/master/aprsd_weewx_plugin/aprsd_weewx_plugin.py#L42-L50
             #
-            return None
+            return []
 
     @trace.trace
     def process(self, packet):
