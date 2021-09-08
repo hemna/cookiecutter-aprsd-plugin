@@ -43,7 +43,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source aprsd_nearest_plugin setup.py test
+	coverage run --source {{cookiecutter.module_name}} setup.py test
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html

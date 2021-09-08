@@ -10,26 +10,26 @@
 
 |pre-commit|
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg
-   :target: https://pypi.org/project/{{cookiecutter.project_name}}/
+.. |PyPI| image:: https://img.shields.io/pypi/v/{{cookiecutter.plugin_name}}.svg
+   :target: https://pypi.org/project/{{cookiecutter.plugin_name}}/
    :alt: PyPI
-.. |Status| image:: https://img.shields.io/pypi/status/{{cookiecutter.project_name}}.svg
-   :target: https://pypi.org/project/{{cookiecutter.project_name}}/
+.. |Status| image:: https://img.shields.io/pypi/status/{{cookiecutter.plugin_name}}.svg
+   :target: https://pypi.org/project/{{cookiecutter.plugin_name}}/
    :alt: Status
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/{{cookiecutter.project_name}}
-   :target: https://pypi.org/project/{{cookiecutter.project_name}}
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/{{cookiecutter.plugin_name}}
+   :target: https://pypi.org/project/{{cookiecutter.plugin_name}}
    :alt: Python Version
-.. |License| image:: https://img.shields.io/pypi/l/{{cookiecutter.project_name}}
+.. |License| image:: https://img.shields.io/pypi/l/{{cookiecutter.plugin_name}}
    :target: https://opensource.org/licenses/{{cookiecutter.license}}
    :alt: License
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/{{cookiecutter.project_name}}/latest.svg?label=Read%20the%20Docs
-   :target: https://{{cookiecutter.project_name}}.readthedocs.io/
-   :alt: Read the documentation at https://{{cookiecutter.project_name}}.readthedocs.io/
-.. |Tests| image:: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg
-   :target: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/{{cookiecutter.plugin_name}}/latest.svg?label=Read%20the%20Docs
+   :target: https://{{cookiecutter.plugin_name}}.readthedocs.io/
+   :alt: Read the documentation at https://{{cookiecutter.plugin_name}}.readthedocs.io/
+.. |Tests| image:: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.plugin_name}}/workflows/Tests/badge.svg
+   :target: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.plugin_name}}/actions?workflow=Tests
    :alt: Tests
-.. |Codecov| image:: https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}
+.. |Codecov| image:: https://codecov.io/gh/{{cookiecutter.github_username}}/{{cookiecutter.plugin_name}}/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/{{cookiecutter.github_username}}/{{cookiecutter.plugin_name}}
    :alt: Codecov
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
    :target: https://github.com/pre-commit/pre-commit
@@ -55,7 +55,7 @@ You can install *{{cookiecutter.friendly_name}}* via pip_ from PyPI_:
 
 .. code:: console
 
-   $ pip install {{cookiecutter.project_name}}
+   $ pip install {{cookiecutter.plugin_name}}
 
 
 Usage
@@ -95,8 +95,8 @@ This project was generated from `@hemna`_'s `APRSD Plugin Python Cookiecutter`_ 
 .. _{{cookiecutter.license.replace("-", " ")}} license: https://opensource.org/licenses/{{cookiecutter.license}}
 .. _PyPI: https://pypi.org/
 .. _APRSD Plugin Python Cookiecutter: https://github.com/hemna/cookiecutter-aprsd-plugin
-.. _file an issue: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/issues
+.. _file an issue: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.plugin_name}}/issues
 .. _pip: https://pip.pypa.io/
 .. github-only
 .. _Contributor Guide: CONTRIBUTING.rst
-.. _Usage: https://{{cookiecutter.project_name}}.readthedocs.io/en/latest/usage.html
+.. _Usage: https://{{cookiecutter.plugin_name}}.readthedocs.io/en/latest/usage.html
