@@ -60,25 +60,17 @@ Features
 
 .. features-begin
 
-- Packaging and dependency management with Poetry_
-- Test automation with Nox_
+- Test automation with Tox_
 - Linting with pre-commit_ and Flake8_
 - Continuous integration with `GitHub Actions`_
 - Documentation with Sphinx_ and `Read the Docs`_
 - Automated uploads to PyPI_ and TestPyPI_
-- Automated release notes with `Release Drafter`_
 - Automated dependency updates with Dependabot_
-- Code formatting with Black_ and Prettier_
+- Code formatting with Gray_
 - Testing with pytest_
 - Code coverage with Coverage.py_
 - Coverage reporting with Codecov_
-- Command-line interface with Click_
-- Static type-checking with mypy_
-- Runtime type-checking with Typeguard_
-- Security audit with Bandit_ and Safety_
 - Check documentation examples with xdoctest_
-- Generate API documentation with autodoc_ and napoleon_
-- Generate command-line reference with sphinx-click_
 - Manage project labels with `GitHub Labeler`_
 
 The template supports Python 3.6, 3.7, 3.8, and 3.9.
