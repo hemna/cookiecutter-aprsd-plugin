@@ -90,7 +90,7 @@ Credits
 
 This project was generated from `@hemna`_'s `APRSD Plugin Python Cookiecutter`_ template.
 
-.. _@cjolowicz: https://github.com/cjolowicz
+.. _@hemna: https://github.com/hemna
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _{{cookiecutter.license.replace("-", " ")}} license: https://opensource.org/licenses/{{cookiecutter.license}}
 .. _PyPI: https://pypi.org/
