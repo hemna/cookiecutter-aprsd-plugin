@@ -7,11 +7,6 @@
     "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
     "short_description": "Ham radio APRSD plugin that does....",
     "version": "v0.1.0",
-    "docs_tool": [
-        "mkdocs",
-        "sphinx",
-        "none"
-    ],
     "license": [
         "MIT",
         "BSD-3",
