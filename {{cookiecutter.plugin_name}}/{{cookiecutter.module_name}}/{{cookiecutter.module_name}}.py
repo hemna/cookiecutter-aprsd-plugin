@@ -53,4 +53,4 @@ class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_obj
             return "some reply message"
         else:
             LOG.warning("{{cookiecutter.plugin_class_name}} is disabled.")
-            return messaging.NULL
+            return messaging.NULL_MESSAGE
