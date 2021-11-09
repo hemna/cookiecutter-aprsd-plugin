@@ -2,13 +2,15 @@ import logging
 
 from aprsd import messaging, plugin, threads, trace, utils
 
+import {{cookiecutter.module_name}}
+
 
 LOG = logging.getLogger("APRSD")
 
 
 class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_object}}):
 {% if cookiecutter.plugin_parent_object == "APRSDRegexCommandPluginBase" %}
-    version = "1.0"
+    version = {{cookiecutter.module_name}}.__version__
     # Look for any command that starts with w or W
     command_regex = "^[wW]"
     # the command is for ?
