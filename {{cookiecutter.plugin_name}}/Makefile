@@ -21,7 +21,10 @@ docs: build
 	cp Changelog docs/changelog.rst
 	tox -edocs
 
-clean: clean-build clean-pyc clean-test ## remove all build, test, coverage and Python artifacts
+clean: clean-build clean-pyc clean-test clean-pyenv ## remove all build, test, coverage and Python artifacts
+
+clean-pyenv:
+	rm -rf .venv
 
 clean-build: ## remove build artifacts
 	rm -fr build/
