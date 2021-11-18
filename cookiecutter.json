@@ -14,7 +14,7 @@
         "Apache Software License 2.0",
         "Mozilla Public License 2.0"
     ],
-    "plugin_class_name": "MyAPRSDPlugin",
+    "plugin_class_name": "MyPlugin",
     "plugin_parent_object": [
         "APRSDRegexCommandPluginBase",
         "APRSDWatchListPluginBase",
