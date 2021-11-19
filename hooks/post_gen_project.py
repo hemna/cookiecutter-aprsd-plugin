@@ -28,6 +28,8 @@ if __name__ == "__main__":
     subprocess.call(['git', 'commit', '-m', 'Initial commit'])
     # non-compliant files have been modified, so just commit -a
     subprocess.call(['git', 'commit', '-a', '-m', 'Initial commit'])
+    subprocess.call(['pre-commit'])
+    subprocess.call(['pre-commit', 'install'])
 
     version = "{{cookiecutter.version}}"
     subprocess.call(['git', 'tag', '-a', version, '-m', 'Initial commit'])
