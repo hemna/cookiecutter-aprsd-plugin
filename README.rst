@@ -1,6 +1,6 @@
-===============================
-cookiecutter-hypermodern-python
-===============================
+=========================
+cookiecutter-aprsd-python
+=========================
 
 .. badges-begin
 
