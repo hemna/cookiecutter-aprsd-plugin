@@ -1,2 +1,2 @@
 pbr
-aprsd>=2.5.0
+aprsd>=2.6.0

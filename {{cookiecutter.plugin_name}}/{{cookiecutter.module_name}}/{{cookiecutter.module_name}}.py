@@ -1,6 +1,7 @@
 import logging
 
-from aprsd import messaging, plugin, threads, trace, utils
+from aprsd import messaging, plugin, threads, utils
+from aprsd.utils import trace
 
 import {{cookiecutter.module_name}}
 
@@ -51,13 +52,13 @@ class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_obj
     def process(self, packet):
 {% if cookiecutter.plugin_parent_object == "APRSDRegexCommandPluginBase" %}
         """This is called when a received packet matches self.command_regex.
-        
+
         This is only called when self.enabled = True and the command_regex
         matches in the contents of the packet["message_text"]."""
 {% elif cookiecutter.plugin_parent_object == "APRSDWatchListPluginBase" %}
         """This is called when a received packet matches the watchlist.
-        
-        This is only called when self.enabled = True and callsign in 
+
+        This is only called when self.enabled = True and callsign in
         packet["from"] is in the config's watchlist setting."""
 {% endif %}
         LOG.info("{{cookiecutter.plugin_class_name}} Plugin")
