@@ -25,6 +25,7 @@ clean: clean-build clean-pyc clean-test clean-pyenv ## remove all build, test, c
 
 clean-pyenv:
 	rm -rf .venv
+	rm Makefile.venv
 
 clean-build: ## remove build artifacts
 	rm -fr build/
