@@ -1,2 +1,3 @@
 pbr
-aprsd>=2.6.0
+aprsd>=3.0.0
+oslo_config

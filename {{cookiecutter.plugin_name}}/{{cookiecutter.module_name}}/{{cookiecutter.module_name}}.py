@@ -1,11 +1,13 @@
 import logging
 
-from aprsd import messaging, plugin, threads, utils
+from oslo_config import cfg
+from aprsd import packets, plugin, threads, utils
 from aprsd.utils import trace
 
 import {{cookiecutter.module_name}}
+from {{cookiecutter.module_name}} import conf  # noqa
 
-
+CONF = cfg.CONF
 LOG = logging.getLogger("APRSD")
 
 
@@ -59,12 +61,12 @@ class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_obj
         """This is called when a received packet matches the watchlist.
 
         This is only called when self.enabled = True and callsign in
-        packet["from"] is in the config's watchlist setting."""
+        packet.from_call is in the config's watchlist setting."""
 {% endif %}
         LOG.info("{{cookiecutter.plugin_class_name}} Plugin")
 
-        from_callsign = packet.get("from")
-        message = packet.get("message_text", None)
+        from_callsign = packet.from_call
+        message = packet.message_text
 
         # Now we can process
         return "some reply message"
