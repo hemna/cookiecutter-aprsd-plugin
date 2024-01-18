@@ -51,7 +51,7 @@ class {{cookiecutter.plugin_class_name}}(plugin.{{cookiecutter.plugin_parent_obj
             return []
 
     @trace.trace
-    def process(self, packet):
+    def process(self, packet: packets.core.Packet):
 {% if cookiecutter.plugin_parent_object == "APRSDRegexCommandPluginBase" %}
         """This is called when a received packet matches self.command_regex.
 

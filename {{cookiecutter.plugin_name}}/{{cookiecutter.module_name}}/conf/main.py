@@ -7,11 +7,11 @@ plugin_group = cfg.OptGroup(
 )
 
 plugin_opts = [
-#    cfg.StrOpt(
-#        "plugin_secret",
-#        default=None,
-#        help="Your plugin secret",
-#    ),
+    cfg.BoolOpt(
+        "enabled",
+        default=False,
+        help="Enable the plugin?",
+    ),
 ]
 
 ALL_OPTS = plugin_opts
