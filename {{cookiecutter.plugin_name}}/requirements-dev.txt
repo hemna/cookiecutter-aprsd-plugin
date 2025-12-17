@@ -1,8 +1,0 @@
-pip
-pip-tools
-bump2version
-wheel
-watchdog
-tox
-Sphinx
-twine
