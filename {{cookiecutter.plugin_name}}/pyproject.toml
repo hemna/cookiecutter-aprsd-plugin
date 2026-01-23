@@ -123,6 +123,9 @@ classifiers = [
 [project.entry-points."oslo.config.opts"]
     "{{cookiecutter.module_name}}.conf" = "{{cookiecutter.module_name}}.conf.opts:list_opts"
 
+[project.scripts]
+    "{{cookiecutter.plugin_name}}-export-config" = "{{cookiecutter.module_name}}.cli:main"
+
 # If you are using a different build backend, you will need to change this.
 [tool.setuptools]
 # If there are data files included in your packages that need to be
